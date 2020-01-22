@@ -34,4 +34,8 @@ Return
 Return
 
 #5::
+if WinActive("TheBrain")
+    WinClose
+Else
+    Run C:\Program Files (x86)\TheBrain\TheBrain 10\TheBrain.exe
 Return
