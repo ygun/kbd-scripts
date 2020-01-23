@@ -38,11 +38,18 @@ if WinActive("TheBrain")
     WinClose
 Else 
 {
-    Run C:\Program Files (x86)\TheBrain\TheBrain 10\TheBrain.exe
-    WinWaitActive, ahk_exe TheBrain.exe
-    Send {Esc}
-    Sleep, 500
-    WinWaitActive, ahk_exe TheBrain.exe
-    Send {Esc}
+    IfWinExist, TheBrain
+    {
+        WinActivate
+    }
+    Else
+    {
+        Run C:\Program Files (x86)\TheBrain\TheBrain 10\TheBrain.exe
+        WinWaitActive, ahk_exe TheBrain.exe
+        Send {Esc}
+        Sleep, 500
+        WinWaitActive, ahk_exe TheBrain.exe
+        Send {Esc}
+    }
 }
 Return
