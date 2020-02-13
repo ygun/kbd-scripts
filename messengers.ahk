@@ -57,3 +57,7 @@ Return
 ::пож::
 Send, пожалуйста
 Return
+
+::спс::
+Send, спасибо
+Return
