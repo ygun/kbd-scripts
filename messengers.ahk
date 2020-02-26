@@ -61,3 +61,7 @@ Return
 ::спс::
 Send, спасибо
 Return
+
+::блг::
+Send, благодарю
+Return
