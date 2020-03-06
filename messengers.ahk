@@ -44,7 +44,7 @@ Else
     }
     Else
     {
-        Run C:\Program Files (x86)\TheBrain\TheBrain 10\TheBrain.exe
+        Run C:\Program Files (x86)\TheBrain\TheBrain 11\TheBrain.exe
         WinWaitActive, ahk_exe TheBrain.exe
         Send {Esc}
         Sleep, 500
