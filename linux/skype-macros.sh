@@ -1,2 +1,2 @@
 #/bin/sh
-xdotool search --onlyvisible --name slack windowkill || slack&
+xdotool search --onlyvisible --name skype windowkill || skypeforlinux&
