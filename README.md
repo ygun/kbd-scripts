@@ -2,5 +2,5 @@
 
 Macroses for Microsoft 4000 keyboard
 
-Windows: AutoHotkey 
-Linux: xdotool
+* Windows: AutoHotkey 
+* Linux: xdotool
